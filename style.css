@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020A18;
+    font-family: Open Sans;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1275px;
+}
+
+.header-link {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding: 40px 16px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header-link:hover {
+    color: #3A68B8;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.subtitle {
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: var(--ffffff, #FFF);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 71.5px */
+    margin-bottom: 40px;
+}
+
+.dsc {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.main-button {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    padding: 1rem 2rem;
+    margin-right: 20px;
+}
+
+.fa-play {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left,
+.main-right {
+    width: 47%;
+}
+
+.main-right {
+    display: flex;
+    justify-content: end;
+}
+
+.main {
+    margin-bottom: 200px;
+}
+
+.top {
+    margin-top: 256px;
+    margin-bottom: 250px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    align-items: center
+}
+
+.subtitle {
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 52px */
+}
+
+.text__top {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 25.6px */
+    opacity: 0.7;
+    width: 460px;
+    height: 78px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.item1 {
+    grid-column: 1/2;
+}
+
+.excerpt {
+    margin-bottom: 243px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.welcome {
+    padding: 30px 120px;
+}
+
+h4 {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.text_excerpt {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.aside {
+    display: flex;
+}
+
+.text_aside {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-top: 40px;
+    width: 460px;
+}
+
+.footer {
+    margin-top: 240px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: start;
+    justify-items: start;
+    align-items: baseline;
+    align-content: space-between;
+    gap: 30px;
+    color: var(--ffffff, #FFF);
+    margin-bottom: 100px;
+}
+
+.footer__info1 {
+    color: var(--ffffff, #FFF);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 25px;
+}
