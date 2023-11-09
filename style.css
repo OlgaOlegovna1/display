@@ -157,8 +157,39 @@ body {
     justify-content: center;
 }
 
+.container__excerpt {
+    border-radius: 10px;
+    background: #132035;
+}
+
+.container__excerpt__big {
+    grid-column: 1/3;
+    grid-row: 2/4;
+    border-radius: 10px;
+    background: #132035;
+    width: 750px;
+    height: 800px;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .welcome {
     padding: 30px 120px;
+}
+
+.welcome__big {
+    width: 300px;
+    justify-items: center;
+    padding-left: 40px;
+}
+
+.text_excerpt__big {
+    width: 500px;
+    color: #FFF;
+    align-content: center;
 }
 
 h4 {
